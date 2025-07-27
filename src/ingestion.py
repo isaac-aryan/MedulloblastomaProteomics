@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from collections import defaultdict
 
-def process_expression_data(
+def get_expression_data(
         data:pd.DataFrame,
         isoforms:bool=False
         ) -> pd.DataFrame:
